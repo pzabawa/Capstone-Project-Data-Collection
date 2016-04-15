@@ -9,7 +9,7 @@
 from scrapy.item import Item, Field
 
 class CraigslistPhiladelphiaItem(Item):
+    id = Field()
+    reposting_id = Field()
     title = Field()
     link = Field()
-    id = Field()
-
