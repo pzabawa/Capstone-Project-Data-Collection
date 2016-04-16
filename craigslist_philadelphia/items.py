@@ -13,3 +13,6 @@ class CraigslistPhiladelphiaItem(Item):
     reposting_id = Field()
     title = Field()
     link = Field()
+    price = Field()
+    bedrooms = Field()
+    neighborhood = Field()
